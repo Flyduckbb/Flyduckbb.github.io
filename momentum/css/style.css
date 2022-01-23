@@ -1,0 +1,63 @@
+.whole {
+    position: relative;
+}
+
+.total-text {
+    width: 40%;
+    position: absolute;
+    margin-top: 5%;
+    left: 30%;
+    text-align: center;
+}
+
+.clock-text {
+    font-size: 100px;
+    color: aliceblue;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.greeting-text {
+    font-size: 50px;
+    color:aliceblue;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.hidden{
+    position: absolute;
+    display: none;
+    text-align: left;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.todo-form-text {
+    text-align: center;
+}
+
+.todo-list-text {
+    text-align: left;
+}
+
+.quote-text {
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.weather-text {
+    margin-top: 20%;
+    font-size: 30px;
+    color:aliceblue;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body img{
+    object-fit:cover;
+    width: 100%; height: 100%;
+}
